@@ -8,3 +8,8 @@ A simple and modern webpage design built with **HTML5**, **CSS3**, and integrate
 - **HTML5**
 - **CSS3**
 - **AOS (Animate On Scroll) Library**
+
+---
+
+## 🖼️ Showcase
+![Website Screenshot](showcase/showcase.png)
