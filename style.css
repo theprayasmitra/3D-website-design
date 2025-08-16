@@ -62,3 +62,56 @@ nav {
     gap: 3rem;
     margin-left: -5%;
 }
+
+nav a {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    transition: color 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    color: #a7a7a7;
+}
+
+.btn-signin {
+    background-color: #a7a7a7;
+    color: black;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-signin:hover {
+    background-color: white;
+}
+
+/* MAIN CONTENT */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(90vh - 6rem);
+}
+
+.content {
+    max-width: 40rem;
+    margin-left: 10%;
+    z-index: 999;
+}
+
+.tag-box {
+    position: relative;
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background: linear-gradient(to right, #656565, #7f42a7, #6600c5, #5300a0, #757575, #656565);
+    background-size: 200%;
+    animation: animationGradient 2.5s linear infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
